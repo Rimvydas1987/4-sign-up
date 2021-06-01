@@ -13,27 +13,51 @@ body {
 main {
     display:inline-block;
     width: 800px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: calc(50% - 400px);
+    position: relative;
 }
 .left-column {
     width: 40%;
     float: left;
-    background-color: yellow;
+    padding: 40px;
+    background-color: #4232a0;
+    color: #fff;
+    background-image: url(../Pictures/Blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:40px;
+    bottom: 40px;
 }
 .main-title {
+    font-size: 60px;
 }
 .bottom-links {
+
 }
 .bottom-links > a {
+    color: #fff;
 }
 .bottom-links > span {
 }
+
 .right-column {
-    box-sizing: content-box;
     width: 60%;
-    float: left;
-    padding: 0px;
-    }
+    float: right;
+    padding: 60px;
+    background-color: #fff;    
+}
 .close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
