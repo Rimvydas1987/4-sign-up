@@ -1,28 +1,58 @@
 .form {
-    display:inline-block;
+    display:flex;
     width: 100%;
+    flex-direction: column;
+    gap: 40px;
 }
 .form-row {
     display:inline-block;
     width: 100%;
-    margin-top: 20px;
-    font-size: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-row.flex-row {
+    flex-direction: row;
+    gap: 25px;
 }
 .form-row > label {
+    text-transform: uppercase;
+    font-size: 14px;
     display:inline-block;
     width: 100%;
+    margin-bottom: 10px;
 }
 .form-row > input {
     display:inline-block;
     width: 100%;
     font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
 }
 .form-row > button {
-    
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;    
+    font-size: 20px;
+    background-color: #015cda;
+    background: linear-gradient(47deg,#234ad5 0%, #0265de 100%);
+    color: #fff;
+    border: none;
+    border-radius: 22px;
+    box-shadow: -10px 10px 10px 0px red;
+    }
+.form-row > button:hover{
+
 }
 .form-row > span {
+    line-height: 40px;
+    font-size: 18px;
     
 }
 .form-row > a {
+    line-height: 40px;
     
+}
+.form-row > a:hover {
+    text-decoration: underline;
+    background: red;
 }

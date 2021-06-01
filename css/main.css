@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+    background-color: aqua;
 }
 main {
     display:inline-block;
@@ -33,7 +34,6 @@ main {
     width: 60%;
     float: left;
     padding: 0px;
-    background-color: rgb(255, 0, 255);
-}
+    }
 .close {
 }
